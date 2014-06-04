@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29EA9F2E193FA7A700D8718F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F2D193FA7A700D8718F /* AppDelegate.swift */; };
+		29EA9F30193FA7A700D8718F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EA9F2F193FA7A700D8718F /* Images.xcassets */; };
+		29EA9F3C193FA7A700D8718F /* SwiftTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F3B193FA7A700D8718F /* SwiftTilesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29EA9F36193FA7A700D8718F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29EA9F20193FA7A700D8718F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EA9F27193FA7A700D8718F;
+			remoteInfo = SwiftTiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29EA9F28193FA7A700D8718F /* SwiftTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EA9F2C193FA7A700D8718F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EA9F2D193FA7A700D8718F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29EA9F2F193FA7A700D8718F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29EA9F35193FA7A700D8718F /* SwiftTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EA9F3A193FA7A700D8718F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EA9F3B193FA7A700D8718F /* SwiftTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTilesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29EA9F25193FA7A700D8718F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EA9F32193FA7A700D8718F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29EA9F1F193FA7A700D8718F = {
+			isa = PBXGroup;
+			children = (
+				29EA9F2A193FA7A700D8718F /* SwiftTiles */,
+				29EA9F38193FA7A700D8718F /* SwiftTilesTests */,
+				29EA9F29193FA7A700D8718F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29EA9F29193FA7A700D8718F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F28193FA7A700D8718F /* SwiftTiles.app */,
+				29EA9F35193FA7A700D8718F /* SwiftTilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29EA9F2A193FA7A700D8718F /* SwiftTiles */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F2D193FA7A700D8718F /* AppDelegate.swift */,
+				29EA9F2F193FA7A700D8718F /* Images.xcassets */,
+				29EA9F2B193FA7A700D8718F /* Supporting Files */,
+			);
+			path = SwiftTiles;
+			sourceTree = "<group>";
+		};
+		29EA9F2B193FA7A700D8718F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F2C193FA7A700D8718F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29EA9F38193FA7A700D8718F /* SwiftTilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F3B193FA7A700D8718F /* SwiftTilesTests.swift */,
+				29EA9F39193FA7A700D8718F /* Supporting Files */,
+			);
+			path = SwiftTilesTests;
+			sourceTree = "<group>";
+		};
+		29EA9F39193FA7A700D8718F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F3A193FA7A700D8718F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29EA9F27193FA7A700D8718F /* SwiftTiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EA9F3F193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTiles" */;
+			buildPhases = (
+				29EA9F24193FA7A700D8718F /* Sources */,
+				29EA9F25193FA7A700D8718F /* Frameworks */,
+				29EA9F26193FA7A700D8718F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTiles;
+			productName = SwiftTiles;
+			productReference = 29EA9F28193FA7A700D8718F /* SwiftTiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29EA9F34193FA7A700D8718F /* SwiftTilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EA9F42193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTilesTests" */;
+			buildPhases = (
+				29EA9F31193FA7A700D8718F /* Sources */,
+				29EA9F32193FA7A700D8718F /* Frameworks */,
+				29EA9F33193FA7A700D8718F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29EA9F37193FA7A700D8718F /* PBXTargetDependency */,
+			);
+			name = SwiftTilesTests;
+			productName = SwiftTilesTests;
+			productReference = 29EA9F35193FA7A700D8718F /* SwiftTilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29EA9F20193FA7A700D8718F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Sin2;
+				TargetAttributes = {
+					29EA9F27193FA7A700D8718F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					29EA9F34193FA7A700D8718F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 29EA9F27193FA7A700D8718F;
+					};
+				};
+			};
+			buildConfigurationList = 29EA9F23193FA7A700D8718F /* Build configuration list for PBXProject "SwiftTiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29EA9F1F193FA7A700D8718F;
+			productRefGroup = 29EA9F29193FA7A700D8718F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29EA9F27193FA7A700D8718F /* SwiftTiles */,
+				29EA9F34193FA7A700D8718F /* SwiftTilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29EA9F26193FA7A700D8718F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA9F30193FA7A700D8718F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EA9F33193FA7A700D8718F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29EA9F24193FA7A700D8718F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA9F2E193FA7A700D8718F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29EA9F31193FA7A700D8718F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA9F3C193FA7A700D8718F /* SwiftTilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29EA9F37193FA7A700D8718F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29EA9F27193FA7A700D8718F /* SwiftTiles */;
+			targetProxy = 29EA9F36193FA7A700D8718F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29EA9F3D193FA7A700D8718F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29EA9F3E193FA7A700D8718F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29EA9F40193FA7A700D8718F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29EA9F41193FA7A700D8718F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29EA9F43193FA7A700D8718F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftTiles.app/SwiftTiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		29EA9F44193FA7A700D8718F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftTiles.app/SwiftTiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29EA9F23193FA7A700D8718F /* Build configuration list for PBXProject "SwiftTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EA9F3D193FA7A700D8718F /* Debug */,
+				29EA9F3E193FA7A700D8718F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EA9F3F193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EA9F40193FA7A700D8718F /* Debug */,
+				29EA9F41193FA7A700D8718F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29EA9F42193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EA9F43193FA7A700D8718F /* Debug */,
+				29EA9F44193FA7A700D8718F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29EA9F20193FA7A700D8718F /* Project object */;
+}
