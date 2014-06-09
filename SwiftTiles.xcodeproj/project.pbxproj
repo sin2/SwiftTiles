@@ -10,6 +10,10 @@
 		29EA9F2E193FA7A700D8718F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F2D193FA7A700D8718F /* AppDelegate.swift */; };
 		29EA9F30193FA7A700D8718F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EA9F2F193FA7A700D8718F /* Images.xcassets */; };
 		29EA9F3C193FA7A700D8718F /* SwiftTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F3B193FA7A700D8718F /* SwiftTilesTests.swift */; };
+		29EA9F48193FAD1700D8718F /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F47193FAD1700D8718F /* TileView.swift */; };
+		29EA9F4B193FB2FB00D8718F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F4A193FB2FB00D8718F /* GameViewController.swift */; };
+		29EA9F4E1940C3E600D8718F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA9F4D1940C3E600D8718F /* AppConstants.swift */; };
+		B0C4F1003E5F4D429F418845 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783903DCFAB478FA0B8DEDD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0783903DCFAB478FA0B8DEDD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EA9F28193FA7A700D8718F /* SwiftTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EA9F2C193FA7A700D8718F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EA9F2D193FA7A700D8718F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +35,11 @@
 		29EA9F35193FA7A700D8718F /* SwiftTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EA9F3A193FA7A700D8718F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EA9F3B193FA7A700D8718F /* SwiftTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTilesTests.swift; sourceTree = "<group>"; };
+		29EA9F45193FAAC000D8718F /* SwiftTiles-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftTiles-Bridging-Header.h"; sourceTree = "<group>"; };
+		29EA9F47193FAD1700D8718F /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		29EA9F4A193FB2FB00D8718F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		29EA9F4D1940C3E600D8718F /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B71A0BC664EE48C8B60C5B95 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C4F1003E5F4D429F418845 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +64,12 @@
 		29EA9F1F193FA7A700D8718F = {
 			isa = PBXGroup;
 			children = (
+				29EA9F45193FAAC000D8718F /* SwiftTiles-Bridging-Header.h */,
 				29EA9F2A193FA7A700D8718F /* SwiftTiles */,
 				29EA9F38193FA7A700D8718F /* SwiftTilesTests */,
 				29EA9F29193FA7A700D8718F /* Products */,
+				B71A0BC664EE48C8B60C5B95 /* Pods.xcconfig */,
+				68F93875220044D9BB0C3554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +85,9 @@
 		29EA9F2A193FA7A700D8718F /* SwiftTiles */ = {
 			isa = PBXGroup;
 			children = (
+				29EA9F4C1940C3D300D8718F /* Helpers */,
+				29EA9F49193FB2CE00D8718F /* Controllers */,
+				29EA9F46193FACA700D8718F /* Views */,
 				29EA9F2D193FA7A700D8718F /* AppDelegate.swift */,
 				29EA9F2F193FA7A700D8718F /* Images.xcassets */,
 				29EA9F2B193FA7A700D8718F /* Supporting Files */,
@@ -103,6 +120,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		29EA9F46193FACA700D8718F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F47193FAD1700D8718F /* TileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29EA9F49193FB2CE00D8718F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F4A193FB2FB00D8718F /* GameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		29EA9F4C1940C3D300D8718F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				29EA9F4D1940C3E600D8718F /* AppConstants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		68F93875220044D9BB0C3554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0783903DCFAB478FA0B8DEDD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29EA9F3F193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTiles" */;
 			buildPhases = (
+				EE8579A9FD4B4F29AB2B3DA1 /* Check Pods Manifest.lock */,
 				29EA9F24193FA7A700D8718F /* Sources */,
 				29EA9F25193FA7A700D8718F /* Frameworks */,
 				29EA9F26193FA7A700D8718F /* Resources */,
+				43D66D2EBEE44FCC82F753F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,12 +246,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43D66D2EBEE44FCC82F753F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8579A9FD4B4F29AB2B3DA1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29EA9F24193FA7A700D8718F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EA9F48193FAD1700D8718F /* TileView.swift in Sources */,
+				29EA9F4B193FB2FB00D8718F /* GameViewController.swift in Sources */,
 				29EA9F2E193FA7A700D8718F /* AppDelegate.swift in Sources */,
+				29EA9F4E1940C3E600D8718F /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,23 +391,27 @@
 		};
 		29EA9F40193FA7A700D8718F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71A0BC664EE48C8B60C5B95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftTiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./SwiftTiles-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		29EA9F41193FA7A700D8718F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71A0BC664EE48C8B60C5B95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftTiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./SwiftTiles-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -379,6 +470,7 @@
 				29EA9F41193FA7A700D8718F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29EA9F42193FA7A700D8718F /* Build configuration list for PBXNativeTarget "SwiftTilesTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +479,7 @@
 				29EA9F44193FA7A700D8718F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
